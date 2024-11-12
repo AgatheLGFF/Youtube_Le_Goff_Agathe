@@ -1,0 +1,546 @@
+#recherche {
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Pour s'assurer qu'elle reste au-dessus des autres éléments */
+
+}
+
+#para_youtube {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#img_menu {
+    margin-left: 10px;
+    margin-top: 19px;
+    height: 16px;
+}
+
+#img_ytb {
+    margin-top: 6px;
+    margin-left: 18px;
+    height: 37px;
+}
+
+#barre_recherche {
+    color: grey;
+}
+
+
+#barre_micro {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#barre {
+    border-radius: 20px;
+    height: 35px;
+    width: 500px;
+    outline-color: #222222;
+    border: 1.2px solid #303030;
+    color: #ffffff;
+    background-color: #121212;
+    padding-left: 15px;
+}
+
+#img_micro {
+    height: 19px;
+    width: 19px;
+
+
+}
+
+#micro {
+    margin-left: 12px;
+    height: 35px;
+    width: 35px;
+    background-color: #303030;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#publi_notif_pp {
+    display: flex;
+    flex-direction: row;
+}
+
+.img_cloche {
+    margin-left: 10px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+#killua {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-right: 17px;
+}
+
+body {
+    background-color: #0f0f0f;
+}
+
+.miniature_entier {
+    margin-top: 20px;
+    margin-bottom: -18px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+    width: 270px;
+}
+
+#video_entiere {
+    width: 1140px;
+}
+
+#video {
+
+    display: flex;
+    flex-direction: row;
+}
+
+#boite_miniature {
+    margin-top: 95px;
+    margin-left: 20px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.miniature {
+    width: 168px;
+    height: 94px;
+    border-radius: 6%;
+    border-color: solid red 10px;
+}
+
+.title_video {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+
+
+    width: 100%;
+
+}
+
+.boite_image {
+    margin-top: -0.8px;
+    margin-right: 12px;
+}
+
+.img_chaine {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    border: solid #0f0f0f 0.3px;
+
+}
+
+.img_chaine_entier {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 13px;
+    margin-top: -3px;
+
+    border: solid #0f0f0f 0.3px;
+}
+
+.boite_titre {
+    margin-left: 0px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titre_video {
+    width: 190px;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+.nom_ytb {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nom_ytb_cote {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.police_ytb {
+    margin-top: 0px;
+    margin-bottom: 1px;
+    color: #aaaaaa;
+    font-size: 11px;
+}
+
+.police_propo {
+    margin-top: 9px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#tous {
+    background-color: #f1f1f1;
+    color: #0f0f0f;
+}
+
+.police_ytb3 {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    color: #f0f0f0;
+    font-size: 16.5px;
+}
+
+
+.police_ytb2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #aaaaaa;
+    font-size: 11px;
+}
+
+
+.police_ytb4 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #aaaaaa;
+    font-size: 12.5px;
+}
+
+.boite_plus {
+    margin-top: -0.5px;
+}
+
+.plus {
+    width: 12px;
+    height: 12px;
+}
+
+#propo_video {
+    margin-left: 65px;
+    width: calc(100% - 220px);
+    display: flex;
+    flex-direction: column;
+}
+
+#proposition {
+    width: 440px;
+    height: 46px;
+    border: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #0f0f0f;
+}
+
+.barre_propo {
+    height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-right: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #272727;
+    color: #f1f1f1;
+    border-radius: 8px;
+    text-align: center;
+
+
+}
+
+#grande_video {
+    margin-top: 100px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#video {
+    display: flex;
+    justify-content: space-between;
+}
+
+#miniature_grand {
+    border-radius: 15px;
+    width: 900px;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+#titre_grand {
+    margin-top: -10px;
+    color: #f1f1f1;
+}
+
+.nom_ytb {
+    display: flex;
+    flex-direction: row;
+}
+
+#abonne_toi {
+    margin-left: 20px;
+    margin-top: 2px;
+    width: 93px;
+    height: 35.5px;
+    border-radius: 50px;
+    background-color: #f1f1f1;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sabonner {
+    margin-top: 10px;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image_chaine_dessus {
+    width: 30px;
+    border-radius: 50%;
+
+    border: solid #0f0f0f 0.3px;
+}
+
+#titre_ytb {
+    font-size: 20px;
+    color: #f1f1f1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#like_partage {
+    margin-left: 295px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+#like:hover {
+    background-color: grey;
+    opacity: 90%;
+
+}
+
+#partage:hover {
+    background-color: grey;
+    opacity: 90%;
+
+}
+
+#telecharger:hover {
+    background-color: grey;
+    opacity: 90%;
+
+}
+
+#toujours_plus:hover {
+    background-color: grey;
+    opacity: 90%;
+
+}
+
+.barre_propo:hover {
+    background-color: grey;
+    opacity: 90%;
+
+}
+
+#like {
+    display: flex;
+    flex-direction: row;
+}
+
+#like {
+    width: 137px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #303030;
+    align-items: center;
+}
+
+.like_dislike_partage {
+    width: 25px;
+}
+
+#like_dislike {
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: -8px;
+}
+
+#nbr_like {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+#dislike_like {
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+#partage {
+    width: 115px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #303030;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#partage_ici {
+    margin-left: 8px;
+    margin-right: -3px;
+}
+
+#phrase_partager {
+    margin-left: 0px
+}
+
+#telecharger {
+    width: 150px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #303030;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#telecharger_fleche {
+    margin-left: 10px;
+    margin-right: -3px;
+}
+
+#phrase_partager {
+    margin-left: 10px
+}
+
+#toujours_plus {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #303030;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#toujours_plus_image {
+    margin-left: 5px;
+    width: 26px;
+    height: 26px;
+}
+
+#description {
+    width: 1020px;
+    height: 80px;
+    background-color: #282828;
+    border-radius: 10px;
+}
+
+#nbr_commentaire_tri {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-top: -15px;
+}
+
+#trier {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+#icone_trier {
+    width: 28px;
+    height: 28px;
+    margin-top: 12px;
+    margin-right: 7px;
+}
+
+#com_32 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#trier_texte {
+    color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#chiffre_com {
+    color: #f0f0f0;
+}
+
+#commentaire_ytb {
+    margin-top: 20px;
+}
+
+#ajout_com {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#image_pp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#hr_com {
+    width: 800px;
+    color: #303030;
+}
+
+#ajouter_barre {
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+#texte_ajouter {
+    color: white;
+    margin-bottom: -10px;
+    margin-top: 30px;
+}
+
+#texte_description {
+    color: #f0f0f0;
+}

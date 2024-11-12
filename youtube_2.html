@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_youtube_pc_2.css">
+    <link rel="icon" href="DALL·E-2024-11-11-04.17.png" type="image/x-icon">
+    <title>Agatube</title>
+</head>
+
+
+<body>
+    <nav id="recherche"> <!--Boite tout en haut noir sur le schéma -->
+
+        <div id="para_youtube">
+            <div id="parametre">
+                <img src="icons8-menu-50.png" alt="IMAGE" id="img_menu">
+            </div> <!--Boite avec les trois traits -->
+            <div id="image_youtube"><img src="DALL·E-2024-11-11-04.17.png" alt="IMAGE" id="img_ytb"></div>
+            <!--Boite avec l'image de youtube -->
+        </div> <!-- Boite avec les traits et youtube -->
+
+
+        <div id="barre_micro">
+            <div id="barre_recherche">
+                <input type="search" placeholder="Rechercher" id="barre">
+            </div> <!-- Boite avec la barre de recherche -->
+            <div id="micro">
+                <img src="icons8-microphone-48.png" alt="image" id="img_micro">
+            </div> <!--Boite avec le micro -->
+        </div> <!--Boite avec la barre et le micro -->
+
+
+        <div id="publi_notif_pp">
+            <div class="publie">
+                <img src="icons8-caméra-pro-48.png" alt="image" class="img_cloche">
+            </div><!--Boite avec publié -->
+            <div class="publie">
+                <img src="icons8-rappels-de-rendez-vous-48.png" alt="image" class="img_cloche">
+            </div><!-- Boite avec notif -->
+            <div class="publie">
+                <img src="killua.png" alt="image" class="img_cloche" id="killua">
+            </div><!-- Boite avec pp -->
+        </div> <!-- Boite avec la publication notif etc -->
+    </nav>
+    <!-- Barre de navig en haut -->
+
+
+    <div id="video"> <!-- (La vidéo section de gauche + section de droite)-->
+
+        <div id="grande_video"> <!--Tout mettre en colonne c'est ma vidéo ave commentaire etc-->
+            <div id="video_grand">
+                <iframe width="1022" height="575" src="https://www.youtube.com/embed/-3r3km62jeY"
+                    title="peaceful bossa nova for simple days" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div id="titre_grand">
+                <p id="titre_ytb">peaceful bossa nova for simple days</p>
+            </div>
+            <div id="info">
+                <div class="nom_ytb"> <!--Ici c'est la pp + le nom et le nbr d'abo-->
+                    <div id="pp">
+                        <img src="https://yt3.ggpht.com/V0Jvy7UNYanKNHf6qI0p8QhUBNp4DIfJlH5qm4AdsxggEwKB0RvRa6UC3DrFaDtx_fgiEEunQmY=s68-c-k-c0x00ffffff-no-rj"
+                            alt="image" class="img_chaine_entier">
+                    </div>
+                    <div id="pp_abo">
+                        <p class="police_ytb3">keep it cosy</p>
+                        <p class="police_ytb4">7.38 k abonnés</p>
+                    </div>
+                    <div id="abonne_toi">
+                        <p id="sabonner">S'abonner</p>
+                    </div>
+                    <div id="like_partage"> <!--Ici c'est les likes dislikes partager etc-->
+                        <div id="like"> <!--Ici c'est pour aligner likes dislikes et nbr de likes-->
+                            <div id="like_dislike">
+                                <img src="icons8-j'aime-ça-48.png" alt="image" class="like_dislike_partage">
+                                <!--meme classe-->
+                            </div>
+                            <div id="nbr_like">
+                                <p class="police_ytb3"> 1,6 k</p>
+                            </div>
+                            <div id="dislike_like">
+                                <img src="icons8-pouces-vers-le-bas-48.png" alt="img" class="like_dislike_partage">
+                                <!--meme classe-->
+
+                            </div>
+                        </div>
+                        <div id="partage">
+                            <div id="partage_ici">
+                                <img src="icons8-transférer-48.png" alt="image" class="like_dislike_partage">
+                                <!--meme classe-->
+                            </div>
+                            <div id="phrase_partager">
+                                <p class="police_ytb3"> Partager</p>
+                            </div>
+                        </div>
+                        <div id="telecharger">
+                            <div id="telecharger_fleche">
+                                <img src="icons8-téléchargement-des-mises-à-jour-48.png" alt="image"
+                                    class="like_dislike_partage">
+                            </div>
+                            <!--meme classe-->
+
+                            <div id="phrase_partager">
+                                <p class="police_ytb3"> Télécharger</p>
+                            </div>
+                        </div>
+                        <div id="toujours_plus">
+                            <img src="icons8-plus-48.png" alt="image" id="toujours_plus_image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="description">
+                <p id="texte_description">Voici une courte description de ma vidéo</p>
+            </div>
+            <div id="commentaire_ytb"> <!--je vais aligner avec la vidéo-->
+                <div id="nbr_commentaire_tri">
+                    <div id="chiffre_com">
+                        <p id="com_32">32 commentaires</p>
+                    </div>
+                    <div id="trier">
+                        <div id="trier_icone">
+                            <img src="icons8-trier-les-réponses-48.png" alt="image" id="icone_trier">
+                        </div>
+                        <div id="trier_texte">
+                            <p>Trier par</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="ajout_com"> <!--Boite qui ajoute les commentaires-->
+                <div id="boite_pp">
+                    <img src="https://yt3.ggpht.com/GhtDArLvkWET6t5tpHGnj1yNxJ-8lcPx8ajDT6f1l5Mu0Na19R8oRpLXUn6mSy5Z1Sfil7jKgys=s88-c-k-c0x00ffffff-no-rj"
+                        alt="image" id="image_pp">
+                </div>
+                <div id="ajouter_barre">
+                    <div id="texte_ajouter">
+                        <p>Ajoutez un commentaire...</p>
+                    </div>
+                    <div id="barre_ajouter">
+                        <hr id="hr_com">
+                    </div>
+                </div>
+            </div>
+            <div id="all_commentaire">
+
+            </div>
+        </div>
+
+
+
+
+        <div id="boite_miniature">
+            <!--boite qui contient les vidéos et les propos-->
+            <div id="proposition">
+                <div class="barre_propo" id="tous">
+                    <p class="police_propo">Tous</p>
+                </div>
+                <div class="barre_propo" id="categorie_1">
+                    <p class="police_propo">Jeux vidéo</p>
+                </div>
+                <div class="barre_propo" id="categorie_2">
+                    <p class="police_propo">Lo-fi</p>
+                </div>
+                <div class="barre_propo" id="categorie_3">
+                    <p class="police_propo">Musique</p>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/qHOAnvFoxbE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBUsarHkhboeRaP2ZeArfHFr1SMkQ"
+                        alt="image" class="miniature">
+
+
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">Le Biais Cognitif qui Gâche ta Vie</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Cato Minor</p>
+                            <p class="police_ytb2">24 k vues • il y a 9 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/xIBjtB4WYZ8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSLJI4SK0jJBeO_ZKTxh5fiRsm7A"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">마음이 조급할 때 듣는 브금 | 3 hour lofi music for studying...
+                        </p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">valhalla</p>
+                            <p class="police_ytb2">42 k vues • il y a 8 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/CoAys4FUH10/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmj3LzDsSaKma7PwUcbJiwa__UDA"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">Les MEILLEURES Videos PRANK | DRÔLE!</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Dielsmk</p>
+                            <p class="police_ytb2">1,3 M de vues • il y a 10 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/VTRxWLm4ZRI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkkSj1nN92166DNlo2NQFbhSMchQ"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">On a retrouvé Jean-Claude, l'ado qui se débrouillait seul...</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">INA Société</p>
+                            <p class="police_ytb2">98 k vues • il y a 2 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/dn2XZVJrpIY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSf2515piYYpZIEZoYJT_Wg32Plg"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">On doit survivre à cette nuit... (Avec LeGrandJD et Elian)
+                        </p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">JOYCA</p>
+                            <p class="police_ytb2">478 k vues • il y a 1 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/hdoSVPlz8n8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjo4oqbmKq6bgEgY118AQG4pMGMw"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">JEREMY - LA BAGARRE (vue par Jeremy)</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Jeremy Nadeau</p>
+                            <p class="police_ytb2">1,1 M de vues • il y a 13 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/Jyi7sHnFhpw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCAo0Ss0FPCNnIYbXh4msKectKylw"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">Jean d'Ormesson : une leçon de vie avant sa mort</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Real Life ▸ Portraits & Témoignages</p>
+                            <p class="police_ytb2">28 k vues • il y a 2 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/CQklNpxP0D8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhEIGUoRzAP&rs=AOn4CLC12-eBSzqBB1fc-4ow2e24GveDUA"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">The Garden of Words OST - Soundtracks [Álbum Completo]</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Kepler</p>
+                            <p class="police_ytb2">58 k vues • il y a 6 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/qHOAnvFoxbE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBUsarHkhboeRaP2ZeArfHFr1SMkQ"
+                        alt="image" class="miniature">
+
+
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">Le Biais Cognitif qui Gâche ta Vie</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Cato Minor</p>
+                            <p class="police_ytb2">24 k vues • il y a 9 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/xIBjtB4WYZ8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSLJI4SK0jJBeO_ZKTxh5fiRsm7A"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">마음이 조급할 때 듣는 브금 | 3 hour lofi music for studying...
+                        </p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">valhalla</p>
+                            <p class="police_ytb2">42 k vues • il y a 8 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/CoAys4FUH10/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmj3LzDsSaKma7PwUcbJiwa__UDA"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">Les MEILLEURES Videos PRANK | DRÔLE!</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Dielsmk</p>
+                            <p class="police_ytb2">1,3 M de vues • il y a 10 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/VTRxWLm4ZRI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkkSj1nN92166DNlo2NQFbhSMchQ"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">On a retrouvé Jean-Claude, l'ado qui se débrouillait seul...</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">INA Société</p>
+                            <p class="police_ytb2">98 k vues • il y a 2 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/dn2XZVJrpIY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSf2515piYYpZIEZoYJT_Wg32Plg"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">On doit survivre à cette nuit... (Avec LeGrandJD et Elian)
+                        </p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">JOYCA</p>
+                            <p class="police_ytb2">478 k vues • il y a 1 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/hdoSVPlz8n8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjo4oqbmKq6bgEgY118AQG4pMGMw"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">JEREMY - LA BAGARRE (vue par Jeremy)</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Jeremy Nadeau</p>
+                            <p class="police_ytb2">1,1 M de vues • il y a 13 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/Jyi7sHnFhpw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCAo0Ss0FPCNnIYbXh4msKectKylw"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">Jean d'Ormesson : une leçon de vie avant sa mort</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Real Life ▸ Portraits & Témoignages</p>
+                            <p class="police_ytb2">28 k vues • il y a 2 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/CQklNpxP0D8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhEIGUoRzAP&rs=AOn4CLC12-eBSzqBB1fc-4ow2e24GveDUA"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">The Garden of Words OST - Soundtracks [Álbum Completo]</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Kepler</p>
+                            <p class="police_ytb2">58 k vues • il y a 6 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/qHOAnvFoxbE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBUsarHkhboeRaP2ZeArfHFr1SMkQ"
+                        alt="image" class="miniature">
+
+
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">Le Biais Cognitif qui Gâche ta Vie</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Cato Minor</p>
+                            <p class="police_ytb2">24 k vues • il y a 9 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/xIBjtB4WYZ8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSLJI4SK0jJBeO_ZKTxh5fiRsm7A"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">마음이 조급할 때 듣는 브금 | 3 hour lofi music for studying...
+                        </p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">valhalla</p>
+                            <p class="police_ytb2">42 k vues • il y a 8 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/CoAys4FUH10/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmj3LzDsSaKma7PwUcbJiwa__UDA"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">Les MEILLEURES Videos PRANK | DRÔLE!</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Dielsmk</p>
+                            <p class="police_ytb2">1,3 M de vues • il y a 10 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/VTRxWLm4ZRI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDkkSj1nN92166DNlo2NQFbhSMchQ"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">On a retrouvé Jean-Claude, l'ado qui se débrouillait seul...</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">INA Société</p>
+                            <p class="police_ytb2">98 k vues • il y a 2 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/dn2XZVJrpIY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSf2515piYYpZIEZoYJT_Wg32Plg"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">On doit survivre à cette nuit... (Avec LeGrandJD et Elian)
+                        </p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">JOYCA</p>
+                            <p class="police_ytb2">478 k vues • il y a 1 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/hdoSVPlz8n8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjo4oqbmKq6bgEgY118AQG4pMGMw"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">JEREMY - LA BAGARRE (vue par Jeremy)</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Jeremy Nadeau</p>
+                            <p class="police_ytb2">1,1 M de vues • il y a 13 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/Jyi7sHnFhpw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCAo0Ss0FPCNnIYbXh4msKectKylw"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">Jean d'Ormesson : une leçon de vie avant sa mort</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Real Life ▸ Portraits & Témoignages</p>
+                            <p class="police_ytb2">28 k vues • il y a 2 jours</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+            <div class="miniature_entier">
+                <div class="image_neuille">
+                    <img src="https://i.ytimg.com/vi/CQklNpxP0D8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhEIGUoRzAP&rs=AOn4CLC12-eBSzqBB1fc-4ow2e24GveDUA"
+                        alt="image" class="miniature">
+                </div>
+                <div class="title_video">
+                    <div class="boite_image">
+                    </div>
+                    <div class="boite_titre">
+                        <p class="titre_video">The Garden of Words OST - Soundtracks [Álbum Completo]</p>
+                        <div class="nom_ytb_cote">
+                            <p class="police_ytb">Kepler</p>
+                            <p class="police_ytb2">58 k vues • il y a 6 mois</p>
+                        </div>
+                    </div>
+                    <div class="boite_plus">
+                        <img src="icons8-more-26.png" alt="image" class="plus">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
